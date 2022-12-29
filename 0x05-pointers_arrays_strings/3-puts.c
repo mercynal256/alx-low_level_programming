@@ -12,10 +12,6 @@ void _puts(char *str)
 
 	while (str[i] != '\0')
 	{
-		{
-			if(str[i] != ' ' && str[i] != '\t' && str[i] != '\n')				{
-			index = i
-			}
 		_putchar(str[i]);
 		i++;
 	}
