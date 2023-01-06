@@ -4,9 +4,9 @@
 #include <string.h>
 
 /**
- * main - program that adds positive numbers
- * @argc: this is the argument count
- * @argv: this is the argument vector
+ * main - Program that adds positive numbers
+ * @argc: This is the argument count
+ * @argv: This is the argument vector
  *
  * Return: 0;
  */
