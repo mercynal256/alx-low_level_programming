@@ -6,23 +6,23 @@
  * @argc: this is the argument count
  * @argv: this is argument vector
  *
- * Return: 0;
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
-	int index, multiplication;
+	int i, val = 1;
 
-	multiplication = 1;
-	if (argc < 3)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	for (index = 1; index < argc; index++)
+	for (i = 1; i < argc; i++)
 	{
-		multiplication = multiplication * atoi(agrv[index]);
+		val *= atoi(argv[i]);
 	}
-	printf("%d\n", multiplication);
+	printf("%d\n", val);
 	return (0);
 }
+
